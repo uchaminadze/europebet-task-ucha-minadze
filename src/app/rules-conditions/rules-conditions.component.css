@@ -1,0 +1,29 @@
+.accordion{
+    display: grid;
+    gap: 5px;
+    padding: 20px 16px;
+}
+
+
+.accordion-button, .accordion-header, .accordion-item{
+    background: #25292B;
+    color: #BBBBBB;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.accordion-button::after {
+    font-size: 40px;
+}
+
+
+.accordion-button.collapsed::after {
+    filter: invert(50%);
+}
+
+
+.accordion-button:not(.collapsed)::after {
+    filter: invert(50%);
+}

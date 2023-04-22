@@ -1,0 +1,66 @@
+.header__first-section, 
+.header__third-section{
+    padding: 0px 16px;
+}
+
+
+.logo{
+    width: 23.72px;
+    height: 24px;
+}
+
+.btn{
+    color: white;
+}
+
+
+.btn, .btn-primary{
+    font-size: 0.938rem;
+}
+
+
+.btn-primary{
+    background: #EF602A;
+    border: none;
+}
+
+
+.header__second-section{
+    height: 200px;
+    object-fit: cover;
+    margin-top: 11px;
+}
+
+
+.header__third-section{
+    margin-top: 16px;
+    gap: 16px;
+}
+
+
+.third__section-first-text{
+    gap: 8px;
+}
+
+
+.third__section-first-text span{
+    font-size: 0.750rem;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: #25292B;
+    align-self: center;
+}
+
+.third__section-first-text p{
+    font-size: 0.875rem;
+}
+
+
+.third__section-second-text p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.third__section-third-text p{
+    font-size: 0.875rem;
+}
