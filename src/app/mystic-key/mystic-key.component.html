@@ -1,0 +1,20 @@
+<div class="mystic__key">
+  <div class="mystic__key-title">
+    <img src="../../assets/key.png" alt="key icon" />
+    <h5>მისტიური გასაღები</h5>
+  </div>
+  <p>მოთამაშეები გარკვეული საპრიზო ადგილების დაკავების შემთხვევაში მიიღებენ საიდუმლო გასაღებს</p>
+  <div class="mystic__key-container">
+    <div class="custom__table">
+      <div class="custom__table-body">
+        <div *ngFor="let prize of prizes; index as i" class="custom__table-row">
+          <span class="table__body-cell">{{ prize.cell1 + i }}</span>
+          <span class="table__body-cell">
+            {{ prize.cell2 }}
+            <span class="body__cell-new-line">{{ prize.cell2NewLine }}</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

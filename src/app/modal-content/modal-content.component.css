@@ -60,3 +60,25 @@
     font-size: 0.875rem;
     font-weight: bold;
 }
+
+
+
+@media (min-width: 1920px) {
+    .modal__content{
+        padding: 0 43px;
+    }
+
+    .nav-link{
+        width: 270px;
+        border-radius: 12px;
+    }
+
+    .nav-pills{
+        border-radius: 12px;
+    }
+
+
+    .nav-title{
+        font-size: 14px;
+    }
+}

@@ -1,4 +1,47 @@
 .modal-container{
     width: 100%;
     padding: 104px 0px 226px 0px;
+    background: #1C1D1E;
+}
+
+
+.fixed__button__container{
+    position: fixed;
+    bottom: 0;
+    z-index: 99999999999999999999;
+    width: 100%;
+    height: 56px;
+    background: #171718;
+    border-top: 3px solid #F05A22;
+    display: flex;
+}
+
+
+.fixed__button__container button{
+    color: white;
+    font-size: 15px;
+    width: 134px;
+    height: 32px;
+    background: #F05A22;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: auto;
+}
+
+
+
+
+@media (min-width: 1920px) {
+    .modal-container{
+        width: 940px;
+        margin: 30px auto;
+        background: #1C1D1E;
+        border-radius: 13px;
+        padding: 0px 0px 226px 0px;
+    }
+    
+    .fixed__button__container{
+        width: 940px;
+    }
 }

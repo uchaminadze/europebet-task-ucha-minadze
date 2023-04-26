@@ -1,7 +1,6 @@
 .accordion{
     display: grid;
     gap: 5px;
-    padding: 20px 16px;
 }
 
 
@@ -11,6 +10,13 @@
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
+    border-radius: 10px !important;
+    font-size: 14px;
+}
+
+
+.accordion__button-new-line{
+    display: block;
 }
 
 
@@ -26,4 +32,40 @@
 
 .accordion-button:not(.collapsed)::after {
     filter: invert(50%);
+}
+
+
+.rules__conditions{
+    margin-top: 55px;
+    padding: 0 16px;
+    color: white;
+    display: grid;
+    gap: 21px;
+}
+
+
+
+.rules__conditions-title{
+    font-size: 16px;
+}
+
+
+@media (min-width: 1920px) {
+    .rules__conditions{
+        padding: 0 43px;
+    }
+
+    .accordion{
+        gap: 10px;
+    }
+
+
+    .accordion-button{
+        height: 60px;
+    }
+
+
+    .accordion__button-new-line{
+        display: inline;
+    }
 }

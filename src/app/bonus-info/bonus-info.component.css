@@ -29,7 +29,8 @@
 
 
 
-.main__info-new-line{
+.main__info-new-line,
+.sub__info-new-line{
     display: block;
 }
 
@@ -44,4 +45,33 @@
     font-size: 11px;
     opacity: 0.6;
     line-height: 16px;
+}
+
+
+
+@media (min-width: 1920px) {
+    .main__info{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .main__info span:nth-child(2){
+        display: inline;
+    }
+
+
+    .bonus__info::before{
+        width: 240px;
+    }
+
+
+    .sub__info-new-line{
+        display: inline;
+    }
+
+
+    .sub__info{
+        font-size: 15px;
+    }
 }

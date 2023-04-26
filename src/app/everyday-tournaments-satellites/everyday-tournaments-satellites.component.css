@@ -1,0 +1,199 @@
+.everyday__tournaments__satellites{
+    margin-top: 21px;
+}
+
+
+
+.everyday__tournaments__satellites p{
+    color: white;
+    font-size: 14px;
+}
+
+
+
+.grid__image__first{
+    background: linear-gradient(#8B6534,rgba(0,0,0,0.32)), url('../../assets/tournament-img1.png');
+    width: 100%;
+    height: 85px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: first-image;
+}
+
+
+
+.grid__image__second{
+    background: linear-gradient(#8B6534,rgba(0,0,0,0.32)), url('../../assets/tournament-img2.png');
+    width: 100%;
+    height: 85px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: second-image;
+}
+
+
+
+.grid__image__third{
+    background: linear-gradient(#1C3027,rgba(0,0,0,0.32)), url('../../assets/tournament-img3.png');
+    width: 100%;
+    height: 85px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: third-image;
+}
+
+
+
+.grid__image__first,
+.grid__image__second,
+.grid__image__third{
+    border-radius: 12px;
+    padding: 12px 12px 12px 20px;
+}
+
+
+
+.everyday__tournaments__satellites-grid-images{
+    display: grid;
+    grid-template-areas: 'first-image'
+                        'second-image'
+                        'third-image';
+
+    gap: 14px;
+}
+
+
+
+.text__container-right{
+    text-align: center;
+}
+
+
+
+.text__container__left-down,
+.text__container__right-down{
+    display: block;
+}
+
+
+
+.text__container__left-up,
+.text__container__right-down,
+.text__container__right-up{
+    color: white;
+}
+
+
+
+.text__container__left-up{
+    font-size: 14px;
+}
+
+
+.text__container__left-down{
+    font-size: 24px;
+    color: #FFBE00;
+    font-weight: bold;
+}
+
+
+
+.text__container__right-up{
+    font-size: 12px;
+}
+
+
+
+.text__container__right-down{
+    font-size: 14px;
+    padding: 4px 12px;
+    border-radius: 15px 15px 0 15px;
+    background: #B78648;
+    margin-top: 5px;
+}
+
+
+
+.grid__image__third .text__container-right .text__container__right-down{
+    color: #094B3D;
+    background: #D7C860;
+}
+
+
+
+.grid__image-text-container{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+.everyday__tournaments__satellites-extra-info{
+    margin-top: 16px;
+}
+
+
+
+.everyday__tournaments__satellites-extra-info-new-line{
+    display: block;
+}
+
+
+
+
+@media (min-width: 1920px){
+    .grid__image__third{
+        background: linear-gradient(#1C3027,rgba(0,0,0,0.32)), url('../../assets/tournament-img3-bg.png');
+    }
+
+
+    .everyday__tournaments__satellites{
+        padding: 26px 24px 0px 24px;
+        background: #171718;
+        border: 4px solid #25292B;
+        border-radius: 16px;
+    }
+
+
+    .everyday__tournaments__satellites p{
+        text-align: center;
+        margin-bottom: 26px;
+        font-size: 18px;
+    }
+
+
+    .everyday__tournaments__satellites-grid-images{
+        grid-template-areas: 'first-image second-image'
+                            'third-image third-image';
+    
+    }
+
+
+    .grid__image__first,
+    .grid__image__second,
+    .grid__image__third{
+        height: 104px;
+        padding-top: 20px;
+    }
+
+
+    .grid__image-text-container{
+        justify-content: center;
+        gap: 30px;
+    }
+
+
+    .everyday__tournaments__satellites-extra-info span{
+        font-size: 14px;
+        opacity: 0.7;
+    }
+
+
+    .extra__info-first .everyday__tournaments__satellites-extra-info-new-line,
+    .extra__info-second .everyday__tournaments__satellites-extra-info-new-line{
+        display: inline;
+    }
+}
