@@ -1,10 +1,9 @@
-.bonus__link{
-    padding: 17px 20px 23px 20px;
-    text-align: center;
-    font-size: 13px;
+.bonus__link {
+  padding: 17px 20px 23px 20px;
+  text-align: center;
+  font-size: 13px;
 }
 
-
-.bonus__link-new-line{
-    color: #EF5A21;
+.bonus__link-new-line {
+  color: #ef5a21;
 }

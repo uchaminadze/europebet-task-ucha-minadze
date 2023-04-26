@@ -1,77 +1,64 @@
-.bonus__info{
-    color: white;
-    padding: 24px 20px 17px 20px;
-    text-align: center;
-    background: #2C3234;
-    border-radius: 16px;
-    margin-top: 24.17px;
-    display: grid;
-    gap: 11px;
-    position: relative;
+.bonus__info {
+  color: white;
+  padding: 24px 20px 17px 20px;
+  text-align: center;
+  background: #2c3234;
+  border-radius: 16px;
+  margin-top: 24.17px;
+  display: grid;
+  gap: 11px;
+  position: relative;
 }
-
-
 
 .bonus__info::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 125px;
-    height: 4px;
-    background-color: #EF5A21;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    box-shadow: 0 0 20px #EF5A21;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 125px;
+  height: 4px;
+  background-color: #ef5a21;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 0 20px #ef5a21;
 }
-
-
-
 
 .main__info-new-line,
-.sub__info-new-line{
-    display: block;
+.sub__info-new-line {
+  display: block;
 }
 
-
-.main__info{
-    font-size: 16px;
-    line-height: 20px;
+.main__info {
+  font-size: 16px;
+  line-height: 20px;
 }
 
-
-.sub__info{
-    font-size: 11px;
-    opacity: 0.6;
-    line-height: 16px;
+.sub__info {
+  font-size: 11px;
+  opacity: 0.6;
+  line-height: 16px;
 }
-
-
 
 @media (min-width: 1920px) {
-    .main__info{
-        font-size: 18px;
-        line-height: 24px;
-    }
+  .main__info {
+    font-size: 18px;
+    line-height: 24px;
+  }
 
+  .main__info span:nth-child(2) {
+    display: inline;
+  }
 
-    .main__info span:nth-child(2){
-        display: inline;
-    }
+  .bonus__info::before {
+    width: 240px;
+  }
 
+  .sub__info-new-line {
+    display: inline;
+  }
 
-    .bonus__info::before{
-        width: 240px;
-    }
-
-
-    .sub__info-new-line{
-        display: inline;
-    }
-
-
-    .sub__info{
-        font-size: 15px;
-    }
+  .sub__info {
+    font-size: 15px;
+  }
 }

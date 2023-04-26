@@ -1,84 +1,72 @@
-.modal__content{
-    margin-top: 26px;
-    padding: 0 16px;
+.modal__content {
+  margin-top: 26px;
+  padding: 0 16px;
 }
 
-
-.nav-pills{
-    background: #2C3234;
-    border-radius: 8px;
-    flex-wrap: nowrap;
-    height: 5rem;
-    
+.nav-pills {
+  background: #2c3234;
+  border-radius: 8px;
+  flex-wrap: nowrap;
+  height: 5rem;
 }
 
-
-.nav-link{
-   gap: 0.563rem;
-   padding: 0;
+.nav-link {
+  gap: 0.563rem;
+  padding: 0;
 }
 
-
-.nav-item:nth-child(3) button{
-    padding-right: 0.5rem;
+.nav-item:nth-child(3) button {
+  padding-right: 0.5rem;
 }
 
-
-.nav-item:nth-child(1) button{
-    padding-left: 0.5rem;
+.nav-item:nth-child(1) button {
+  padding-left: 0.5rem;
 }
 
-
-.nav-date{
-    font-size: 0.625rem;
+.nav-date {
+  font-size: 0.625rem;
 }
 
-
-.nav-date, .nav-title{
-    color: white !important;
-    white-space: nowrap;
+.nav-date,
+.nav-title {
+  color: white !important;
+  white-space: nowrap;
 }
 
-
-.nav-title{
-    font-size: 0.75rem;
-    font-weight: bold;
+.nav-title {
+  font-size: 0.75rem;
+  font-weight: bold;
 }
 
-.nav-pills .active{
-    padding: 1.36rem 1.3rem;
-    background: #EF5A21;
+.nav-pills .active {
+  padding: 1.36rem 1.3rem;
+  background: #ef5a21;
 }
 
-
-.active .nav-date{
-    font-size: 0.688rem;
+.active .nav-date {
+  font-size: 0.688rem;
 }
 
-
-.active .nav-title{
-    font-size: 0.875rem;
-    font-weight: bold;
+.active .nav-title {
+  font-size: 0.875rem;
+  font-weight: bold;
 }
-
-
 
 @media (min-width: 1920px) {
-    .modal__content{
-        padding: 0 43px;
-    }
+  .modal__content {
+    padding: 0 43px;
+  }
 
-    .nav-link{
-        width: 270px;
-        border-radius: 12px;
-    }
+  .nav-link {
+    width: 270px;
+    border-radius: 12px;
+  }
 
-    .nav-pills{
-        border-radius: 12px;
-    }
+  .nav-pills {
+    border-radius: 12px;
+  }
 
-
-    .nav-title{
-        font-size: 14px;
-    }
+  .nav-title {
+    font-size: 14px;
+  }
 }
