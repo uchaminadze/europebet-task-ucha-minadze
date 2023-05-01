@@ -79,7 +79,7 @@ h5 {
   white-space: nowrap;
   justify-self: center;
   align-self: center;
-  text-align: start;
+  text-align: flex-start;
   margin-left: 0px;
 }
 
